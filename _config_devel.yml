@@ -1,0 +1,4 @@
+baseurl: "/devel"
+safe : true   # Needed so BASE_PATH is interpreted
+JB :
+  BASE_PATH : "/devel"
