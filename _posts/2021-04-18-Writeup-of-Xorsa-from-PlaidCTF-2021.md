@@ -78,7 +78,7 @@ mod 2**i) start with i=1 and factorize there.
 This gives us the lowest bits of each, p and q. 
 Then we increase i. As we know the xor,
 we only have two more possibilities for the next bit of p to test.
-We repeat this, until i covers teh whole number.
+We repeat this, until i covers the whole number.
 In the linked stackexchange discussion, there is [a link to a github
 repo](https://github.com/sliedes/xor_factor), where someone has
 already implemented this.
